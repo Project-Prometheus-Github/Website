@@ -7,6 +7,24 @@ body{
     margin: 0px;
 }
 
+.fa{
+	text-align: center;
+	text-decoration: none;
+
+    color: #000;
+    font-size: 40px;
+}
+
+.fa:hover{
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
 
 
 section.landing{
@@ -17,6 +35,7 @@ section.landing{
 
 
 div.nav{
+
     background-color: #fff;    
     padding: 20px;
     
@@ -38,41 +57,47 @@ a.nav{
 
     
 }   
-a:hover {
+a.nav:hover {
     color: #777;
 }
 
-
-
-
-
-
 h1.name{
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
 
-    margin: 150px 0 0 0;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 170px;
+    line-height: 204px;
+
+    color: #000000;
+
+    
 }
 
 h2.name{
+
+    
     font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
-    color: #ff9400;
-    margin: 10px 10px 10px 10px1
-);
-
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #FF9400;
+    
+    /* transform: rotate(-90deg); */
 }
-
 
 h3.name{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-family: 'Roboto';
     font-size: 20px;
     color: #999;
-margin:10px 10px 10px 10px;
+    
+    margin: 10px 10px 10px 10px;
 }
+
+
 
 section.info{
     display: flex;

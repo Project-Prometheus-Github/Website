@@ -1,0 +1,95 @@
+
+html{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+
+
+section.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.nav{
+    background-color: #fff;    
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+
+    z-index: 10;
+}
+
+a.nav{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+
+    text-decoration: none;
+	color: #999;
+    margin: 0 20px 0 20px;
+
+
+    
+}   
+a:hover {
+    color: #777;
+}
+
+
+
+
+
+
+h1.name{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+
+    margin: 150px 0 0 0;
+}
+
+h2.name{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #ff9400;
+    margin: 10px 10px 10px 10px1
+);
+
+
+}
+
+
+h3.name{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #999;
+margin:10px 10px 10px 10px;
+}
+
+section.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+h1.info{
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+
+    color: #999999;
+}
+
